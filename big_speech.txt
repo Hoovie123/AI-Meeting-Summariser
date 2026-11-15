@@ -1,0 +1,39 @@
+<voice name="en+m3">Good evening everyone, and thank you all for joining us tonight for this annual technology showcase.
+<break time="400ms"/>
+Over the past ten years, we have seen artificial intelligence evolve from massive supercomputers into tools that everyday people use on a daily basis.
+<break time="400ms"/>
+Yet for most of that time, running smart voice tools required sending your private audio across the internet to distant cloud data centres.
+<break time="400ms"/>
+That cloud-first approach meant paying expensive monthly subscription fees just to transcribe a simple lecture or team meeting.
+<break time="400ms"/>
+It also meant that whenever your internet connection dropped out in a classroom, train, or workshop, your productivity tools stopped working completely.
+<break time="400ms"/>
+Even more importantly, uploading sensitive conversations to third-party servers forced people to give up ownership and privacy over their own spoken words.
+<break time="400ms"/>
+Today, we are witnessing a major shift back toward local, offline computing powered by compact open-source models.
+<break time="400ms"/>
+Thanks to modern model compression and quantized speech recognition, tasks that once required an entire server rack now run quietly on a single credit-card-sized computer.
+<break time="400ms"/>
+When your speech-to-text engine and language model run locally on your own desk, your microphone audio never leaves the room.
+<break time="400ms"/>
+There are no API rate limits, no surprise cloud bills at the end of the month, and zero reliance on external companies keeping their servers online.
+<break time="400ms"/>
+Whether you are a student recording university seminars, an engineer logging workshop notes, or a small business summarising client calls, local hardware puts you in total control.
+<break time="400ms"/>
+Of course, building dependable software on resource-constrained boards teaches valuable engineering discipline.
+<break time="400ms"/>
+When you only have one gigabyte of memory and four modest processor cores, every single megabyte of RAM and every background thread must be managed carefully.
+<break time="400ms"/>
+You learn how to unload models cleanly between steps, keep prompts focused, and stream output in real time so the system feels responsive.
+<break time="400ms"/>
+Rather than hiding behind limitless cloud hardware, working within tight hardware boundaries forces you to understand how software truly operates under the hood.
+<break time="400ms"/>
+Looking ahead over the next few years, edge processors and small language models will continue to become dramatically faster and more capable.
+<break time="400ms"/>
+The skills you develop right now by building offline voice pipelines on tiny boards will scale directly to the next generation of personal devices.
+<break time="400ms"/>
+I encourage everyone here tonight to keep tinkering, keep testing new ideas, and share what you build with the wider open-source community.
+<break time="400ms"/>
+Never underestimate what a small, affordable computer can achieve when paired with clean code and thoughtful design.
+<break time="400ms"/>
+Thank you very much for your time tonight, and I wish you all the best with your upcoming projects.</voice>

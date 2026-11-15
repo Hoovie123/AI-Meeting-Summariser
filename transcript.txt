@@ -1,0 +1,40 @@
+Good evening everyone, and thank you all for joining us tonight for this annual technology
+showcase.
+Over the past ten years, we have seen artificial intelligence evolve from massive supercomputer
+into tools at every day people use on a daily basis.
+Yet for most of that time, running smart voice tools required sending your private audio
+across the Internet to distant cloud-mator centres.
+At cloud-first approach meant paying expensive monthly subscription fees just to transcribe a
+simple lecture or team meeting.
+It also meant that whenever your Internet connection dropped out in a classroom, train, or
+workshop, your productivity tools stopped working completely.
+Even more importantly, uploading sensitive conversations to third-party service forced
+people to give up ownership and privacy over their own spoken words.
+Today, we are witnessing a major shift back toward local, offline computing powered by compact
+open source models.
+Thanks to modern model compression and quantized speech recognition, tasks that once required
+an entire server rack are unquietly on a single credit card-sized computer.
+When your speech detects engine and language model unlocally on your own desk, your microphone
+or the owner leaves the room.
+There are no API-rate limits, no surprise cloud bills at the end of the month, and zero reliance
+on external companies keeping their servers online.
+Whether you are a student recording university seminar, an engineer-logging workshop notes, or
+a small business summarizing client calls, local hardware puts you in total control.
+Of course, building dependable software on resource-constrained boards teaches valuable engineering
+discipline.
+When you only have one gigabyte of memory and four modest processor cores, every single
+megabyte of RAM, and every background thread must be managed carefully.
+You learn how to unload models cleanly with windteps, keep prompts focused, and stream
+output in real-time solar system feels responsive.
+Rather than hiding behind limitless cloud hardware, working within tight hardware boundaries
+forces you to understand how software truly operates under the hood.
+Looking ahead over the next few years, edge processors, and small-language models will continue
+to become dramatically faster and more capable.
+The skills you develop right now by building offline voice pipelines on tiny boards will
+scale directly to the next generation of personal devices.
+I encourage everyone here tonight to keep tinkering, keep testing new ideas, and share what
+you build with the wider open source community.
+Never underestimate what a small, affordable computer can achieve when paired with clean
+code, and thoughtful design.
+Thank you very much for your time tonight, and I wish you all the best with your upcoming
+projects.

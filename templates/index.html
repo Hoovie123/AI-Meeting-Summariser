@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: sans-serif; max-width: 600px; margin: 40px auto;">
+
+    <h2Meeting Summariser</h2>
+
+    <button id="recBtn" onclick="toggleRecord()">Start Recording</button>
+    <button id="sumBtn" onclick="runSummary()">Summarise</button>
+    <button onclick="document.getElementById('output').textContent = ''">Clear Terminal</button>
+
+    <p id="status">Ready.</p>
+
+    <!-- Full Live Terminal Output -->
+    <pre id="output" style="background: #111; color: #0f0; font-family: monospace; padding: 15px; border-radius: 6px; height: 350px; overflow-y: auto; white-space: pre-wrap;"></pre>
+
+    <script>
+        let recording = false;
+        const output = document.getElementById("output");
+
+        // Connects to the live terminal stream as soon as the page opens
+        const eventSource = new EventSource("/stream_logs");
+        eventSource.onmessage = function(event) {
+            output.textContent += event.data.replace(/\\n/g, "\n");
+            output.scrollTop = output.scrollHeight; // Auto-scroll to bottom
+        };
+
+        async function toggleRecord() {
+            const btn = document.getElementById("recBtn");
+            const status = document.getElementById("status");
+
+            if (!recording) {
+                await fetch("/start_record");
+                recording = true;
+                btn.textContent = "Stop Recording";
+                status.textContent = "Recording...";
+            } else {
+                await fetch("/stop_record");
+                recording = false;
+                btn.textContent = "Start Recording";
+                status.textContent = "Saved output.wav! Click Summarise.";
+            }
+        }
+
+        async function runSummary() {
+            const status = document.getElementById("status");
+            status.textContent = "Running...";
+            await fetch("/summarise");
+            status.textContent = "Done!";
+        }
+    </script>
+
+</body>
+</html>
+
