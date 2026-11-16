@@ -2,3 +2,6 @@
 *.mp3
 *.log
 recordings/
+big_speech.txt
+meeting_script.txt
+app.py
