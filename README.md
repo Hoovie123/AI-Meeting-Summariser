@@ -12,7 +12,10 @@ Then navigate into the venv with <code>source ./venv/bin/activate</code>:
 
 Next install all the requirements in requirements.txt by using <code>pip install -r requirements.txt</code>
 
-Now you can plug in a USB microphone into one of the Pi 4's USB ports and run main.py. You will be prompted to press space to start recoding, this will not work in SSH unless you physically plug a separate keyboard into it and use Space on that.
+Now you can plug in a USB microphone into one of the Pi 4's USB ports and run main.py with <code>sudo -E $(which python) main.py</code>, You will be prompted to press space to start recoding, this will not work in SSH unless you physically plug a separate keyboard into it and use Space on that. 
+
+# Prerecorded File: How to Summarise
+If you already have a .wav file you want to summarise recorded separately you should rename it to <code>output.wav</code> and move it to the root directory of the project. Then run <code>sudo -E $(which python) speech-to-text.py</code> instead. This will skip the recording step and will go straight to converting the audio to text and then automatically run summarise.py to summarise it.
 
 # Compatibility
 This Project is for the Raspberry Pi 4 and has been tested on Raspberry Pi OS Lite.
