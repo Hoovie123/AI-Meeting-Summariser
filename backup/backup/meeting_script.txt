@@ -1,7 +1,0 @@
-<voice name="en+m3">Afternoon everyone. Quick update on the mobile app release. Tom, where are we with the login bug?</voice>
-<break time="500ms"/>
-<voice name="en+f3">Hi Alex. I fixed the login crash this morning and uploaded the patch. I still need to test push notifications, which I will finish by Wednesday.</voice>
-<break time="500ms"/>
-<voice name="en+m3">Nice work. Once testing is done, send the build to Rachel on Thursday so she can run final QA. Also, we decided to keep the pricing at nine pounds ninety-nine per month instead of raising it.</voice>
-<break time="500ms"/>
-<voice name="en+f3">Sounds good. I will message Rachel on Thursday morning.</voice>
