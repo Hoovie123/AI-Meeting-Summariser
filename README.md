@@ -14,4 +14,5 @@ Next install all the requirements in requirements.txt by using <code>pip install
 
 Now you can plug in a USB microphone into one of the Pi 4's USB ports and run main.py. You will be prompted to press space to start recoding, this will not work in SSH unless you physically plug a separate keyboard into it and use Space on that.
 
+# Compatibility
 This Project is for the Raspberry Pi 4 and has been tested on Raspberry Pi OS Lite.
